@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MealActivity"
+    android:background="@drawable/bg_gradiente">
+
+    <ImageView
+        android:id="@+id/ivMealImage1"
+        android:layout_width="152dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.007"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tvMealName0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="TextView1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMealImage1"
+        app:layout_constraintStart_toEndOf="@+id/ivMealImage1"
+        app:layout_constraintTop_toTopOf="@+id/ivMealImage1" />
+
+
+    <ImageView
+        android:id="@+id/ivMealImage2"
+        android:layout_width="152dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMealImage1"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tvMealName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="TextView2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMealImage2"
+        app:layout_constraintStart_toEndOf="@+id/ivMealImage2"
+        app:layout_constraintTop_toTopOf="@+id/ivMealImage2" />
+
+    <ImageView
+        android:id="@+id/ivMealImage3"
+        android:layout_width="152dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMealImage2"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tvMealName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="TextView3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMealImage3"
+        app:layout_constraintStart_toEndOf="@+id/ivMealImage3"
+        app:layout_constraintTop_toTopOf="@+id/ivMealImage3" />
+
+    <ImageView
+        android:id="@+id/ivMealImage4"
+        android:layout_width="152dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMealImage3"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tvMealName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="TextView4"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMealImage4"
+        app:layout_constraintStart_toEndOf="@+id/ivMealImage4"
+        app:layout_constraintTop_toTopOf="@+id/ivMealImage4"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <ImageView
+        android:id="@+id/ivMealImage5"
+        android:layout_width="152dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMealImage4"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tvMealName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="TextView5"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMealImage5"
+        app:layout_constraintStart_toEndOf="@+id/ivMealImage5"
+        app:layout_constraintTop_toTopOf="@+id/ivMealImage5" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
